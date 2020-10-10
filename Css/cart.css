@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.mcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #CACFD2;
+}
+.mcontent .clmtwo{
+    width: 500px;
+    height: 45vh;
+    margin-bottom: 1192px;
+    margin-left: 30px;
+    background-color: white;
+    background-attachment: fixed;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+.mcontent .clm h2{
+    text-align: center;
+    margin: 10px;
+}
+.mcontent .clm{
+    width: 700px;
+    margin-left: 100px;
+    margin-top: 50px;
+    /*box-shadow: 20px black;*/
+    height: 200vh;
+    overflow: auto;
+    background-color: #CACFD2;
+    border: black;
+} 
+.mcontent .clm .cartone{
+    width: 678px;
+    height: 361px;
+    margin-bottom: 30px;
+    background-color:white;
+    box-shadow: 5px 2px 5px 2px grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.mcontent .clm .cartone .leftsec{
+    height: 300px;
+    width: 280px;
+    margin-left: 20px;
+    box-shadow: 3px;
+    background-color: royalblue;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+.mcontent .clm .cartone .rightsec{
+    height: 300px;
+    width: 330px;
+    margin-right: 20px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mcontent .clm .cartone .rightsec .prdetail{
+    height: 300px;
+    width: 160px;
+    background-color: #aaeeee ;
+}
+.mcontent .clm .cartone .rightsec .prdetail h3 , p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.mcontent .clm .cartone .rightsec .prquantity{
+    height: 300px;
+    width: 170px;
+    background-color:#E8F8F5 ;
+}
+.mcontent .clm .cartone .rightsec .prquantity ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 40px;
+    margin-left: 30px;
+    list-style: none;
+}
+.mcontent .clm .cartone .rightsec .prquantity #textbox, #textboxtwo, #textboxthree, #textboxfour, #textboxfive, #textboxsix{
+    width: 50px;
+    height: 30px;
+    padding-left: 18px;
+    
+}
+.mcontent .clm .cartone .rightsec .prquantity ul button{
+    width: 35px;
+    height: 30px;
+    font-size: 19px;
+    text-align: center;
+}
+.mcontent .clm .cartone .rightsec .prquantity ul button:hover{
+    background-color: orange;
+    font-size: 20px;
+}
+.mcontent .clm .cartone .rightsec .prquantity h3{
+    margin-left: 40px;
+    margin-top: 40px;
+    color: black;
+    
+}
+/************************************left div*******************************************/
+.mcontent .clmtwo h2{
+    margin: 20px;
+}
+.mcontent .clmtwo .indiviamt, .indiviamttwo, .totalamt{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.mcontent .clmtwo hr{
+    background-color: black;
+}
+.mcontent .clmtwo .buybtn{
+    margin-left: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
