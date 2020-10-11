@@ -154,7 +154,7 @@
 
 		main {
 			width:100%;
-			height: 470vh;
+			height: 520vh;
 			background-color: #ECF0F1 ;
 
 		}
@@ -920,7 +920,7 @@
         
         footer{
             width: 100%;
-            height: 70vh;
+            height: 80vh;
             background-color: black;
         }
         footer .footer{
@@ -938,7 +938,7 @@
         
         footer .footerone{
             height: 320px;
-            width: 250px;
+            width: 280px;
             margin-left: 150px;
             position: relative;
             top: 100px;
@@ -966,7 +966,7 @@
         
         footer .footertwo{
             height: 320px;
-            width: 320px;
+            width: 330px;
             margin-left: 80px;
             position: relative;
             top: 100px;

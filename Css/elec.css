@@ -7,7 +7,7 @@
 
 header {
     width:100%;
-    height: 480vh;
+    height: 530vh;
     background-color: #ECF0F1 ;
 }
 nav{
@@ -949,7 +949,7 @@ img{height: 220px;
 
 footer{
 	width: 100%;
-	height: 70vh;
+	height: 80vh;
 	background-color: black;
 }
 footer .footer{
@@ -967,7 +967,7 @@ footer .footer{
 
 footer .footerone{
 	height: 320px;
-	width: 250px;
+	width: 280px;
 	margin-left: 150px;
 	position: relative;
 	top: 100px;
@@ -995,7 +995,7 @@ footer .footerone .one div:hover{
 
 footer .footertwo{
 	height: 320px;
-	width: 320px;
+	width: 330px;
 	margin-left: 80px;
 	position: relative;
 	top: 100px;
