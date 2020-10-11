@@ -7,6 +7,45 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+	<nav>
+		<div id="mySidenav" class="sidenav">
+		  <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+		  <pre>
+		  <a href="#">ALL</a>
+		  <a href="electronic.html" target="_blank">ELECTRONICS</a>
+		  <a href="mens.html" target="_blank">MENS</a>
+		  <a href="women.html" target="_blank">WOMEN</a>
+		  <a href="kids.html" target="_blank">KIDS</a>
+		  <a href="furniture.html" target="_blank">FURNITURE</a>
+		  <a href="shoes.html" target="_blank">SHOES</a>
+		  <a href="#aboutus">ABOUT US</a>
+		  <a href="#aboutus">HELP</a>
+		  <a href="login.html" target="_blank">LOGIN</a>
+		  <a href="#contactus">CONTACT US</a>
+		  </pre>
+		</div>
+		<span class="hamburger" onclick="openNav()">&#9776;</span>
+		
+		<div class="logo"><img src="img/logo(3).jpg" alt=""></div>
+		<div><select id="all">
+			<option>ALL</option>
+			<option>Mens</option>
+			<option>Womens</option>
+			<option>Kids</option>
+			<option>Electronics</option>
+			<option>Shoes</option>
+			<option>Essentials</option>
+			<option>Mobiles</option>
+		</select>
+		<input type="text" id="search" placeholder="      Search for Products, Brands and more..">
+		<button id="searchicon" onclick="searchcat()" ><i class="fa fa-search fa-2x"></i></button>
+		</div>
+		<button class="login" ><a href="login.html" target="_blank">Login</a></button>
+		<button class="orders" >Orders</button>
+		<button class="contactus" ><a href="tel:6388392311">Contact Us</a></button>
+		<a href="cart.html" target="_blank" id="shoppingcart"><i class="fa fa-shopping-cart fa-3x"></i></a>
+		
+	</nav>
 <main>
 	<div class="div1">
 		<section class="div1sec1"><div><img src="img/mitem1.png"><h5 id="colortext">Helmont</h5><h5 id="offer">From Rs 1,499</h5></div></section>
@@ -111,7 +150,7 @@
                 </div>
             </section>
             <section class="footerfour">
-                <h3>CONNECT WITH US</h3>
+                <h3 id="aboutus">CONNECT WITH US</h3>
                 <div class="logos">
                     <div class="logos2">
                         <a href="#"><i class="fa fa-facebook fa-2x"></i></a>
@@ -124,6 +163,7 @@
                 <button class="btnfoot">Submit</button>
             </section>
         </div>
-    </footer>
+	</footer>
+	<script src="js/java.js"></script>
 </body>
 </html>

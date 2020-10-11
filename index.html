@@ -13,15 +13,15 @@
               <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
               <pre>
               <a href="#">ALL</a>
-              <a href="electronic.html">ELECTRONICS</a>
-              <a href="mens.html">MENS</a>
-              <a href="woman.html">WOMEN</a>
-              <a href="kids.html">KIDS</a>
-              <a href="furniture.html">FURNITURE</a>
-              <a href="shoes.html">SHOES</a>
+              <a href="electronic.html" target="_blank">ELECTRONICS</a>
+              <a href="mens.html" target="_blank">MENS</a>
+              <a href="women.html" target="_blank">WOMEN</a>
+              <a href="kids.html" target="_blank">KIDS</a>
+              <a href="furniture.html" target="_blank">FURNITURE</a>
+              <a href="shoes.html" target="_blank">SHOES</a>
               <a href="#aboutus">ABOUT US</a>
               <a href="#aboutus">HELP</a>
-              <a href="#">LOGIN</a>
+              <a href="login.html" target="_blank">LOGIN</a>
               <a href="#contactus">CONTACT US</a>
               </pre>
             </div>
@@ -39,13 +39,12 @@
                 <option>Mobiles</option>
             </select>
             <input type="text" id="search" placeholder="      Search for Products, Brands and more..">
-            <button id="searchicon" ><i class="fa fa-search fa-2x"></i></button>
+            <button id="searchicon" onclick="searchcat()" ><i class="fa fa-search fa-2x"></i></button>
             </div>
-            <button class="login" >Login</button>
+            <button class="login" ><a href="login.html" target="_blank">Login</a></button>
             <button class="orders" >Orders</button>
-            <button class="contactus" >Contact Us</button>
-            
-            <button id="shoppingcart" ><i class="fa fa-shopping-cart fa-3x"></i></button>
+            <button class="contactus" ><a href="tel:6388392311">Contact Us</a></button>
+            <a href="cart.html" target="_blank" id="shoppingcart"><i class="fa fa-shopping-cart fa-3x"></i></a>
             
             </nav>
         <main>
@@ -55,10 +54,10 @@
                         <img src="img/First.png">
                     </div>
                     <div class="slide">
-                        <img src="img/second.png">
+                        <img src="img/third.png">
                     </div>
                     <div class="slide">
-                        <img src="img/third.png">
+                        <img src="img/second.png">
                     </div>
                     <div class="slide">
                         <img src="img/fourth.png">
@@ -89,7 +88,7 @@
                 </section>
                 <section class="sectwo">
                     <h2>UPTO 80% OFF |BESTSELLERS</h2>
-                    <div sectwoimg><img src="img/item36.PNG" alt="36" width="240" width="240"></div>
+                    <div sectwoimg><img src="img/item36.PNG" alt="36" width="240" height="240"></div>
                     <a href="electronic.html">See more..</a>
                 </section>
                 <section class="secthree">
@@ -108,7 +107,7 @@
                 </section>
                 <section class="secfour">
                     <h2>UPTO 50% OFF</h2>
-                    <div sectwoimg><img src="img/item10.PNG" alt="36" width="240" width="240"></div>
+                    <div sectwoimg><img src="img/item10.PNG" alt="36" width="240" ></div>
                     <a href="electronic.html">See more..</a>
                 </section>
             </div>
@@ -126,59 +125,95 @@
             </div>
             <div class="thirdcat">
                 <section class="secone">
-                    <h2>UPTO 80% OFF |BESTSELLERS</h2>
-                    <div sectwoimg><img src="img/item36.PNG" alt="36" width="240" width="240"></div>
-                    <a href="electronic.html">See more..</a>
+                    <h2>UPTO 30% OFF |Kids Fashion</h2>
+                    <div sectwoimg><img src="img/kitem15.png" alt="36" width="240" height="240"></div>
+                    <a href="kids.html">See more..</a>
                 </section>
                 <section class="sectwo">
-                    <h2>Top picks for your home</h2>
+                    <h2>Top picks for your kids</h2>
                     <div class="fourdiv">
                         <div>
-                            <div class="divone"><img src="img/item2.PNG" alt="items" height="140" width="140"></div>
-                            <div class="divtwo"><img src="img/item6.PNG" alt="items" height="140" width="140"></div>
+                            <div class="divone"><img src="img/kitem1.png" alt="items" height="140" width="140"></div>
+                            <div class="divtwo"><img src="img/kitem2.png" alt="items" height="140" width="140"></div>
                         </div>
                         <div>
-                            <div class="divthree"><img src="img/item22.PNG" alt="items" height="140" width="140"></div>
-                            <div class="divfour"><img src="img/item36.PNG" alt="items" height="140" width="140"></div>
+                            <div class="divthree"><img src="img/kitem3.png" alt="items" height="140" width="140"></div>
+                            <div class="divfour"><img src="img/kitem4.png" alt="items" height="140" width="140"></div>
                         </div>
                     </div>
-                    <a href="electronic.html">See more..</a>
+                    <a href="kids.html">See more..</a>
                 </section>
                 <section class="secthree">
-                    <h2>Top picks for your home</h2>
+                    <h2>Deal of the Day</h2>
                     <div class="fourdiv">
                         <div>
-                            <div class="divone"><img src="img/item2.PNG" alt="items" height="140" width="140"></div>
-                            <div class="divtwo"><img src="img/item6.PNG" alt="items" height="140" width="140"></div>
+                            <div class="divone"><img src="img/kitem5.png" alt="items" height="140" width="140"></div>
+                            <div class="divtwo"><img src="img/kitem6.png" alt="items" height="140" width="140"></div>
                         </div>
                         <div>
-                            <div class="divthree"><img src="img/item22.PNG" alt="items" height="140" width="140"></div>
-                            <div class="divfour"><img src="img/item36.PNG" alt="items" height="140" width="140"></div>
+                            <div class="divthree"><img src="img/kitem7.png" alt="items" height="140" width="140"></div>
+                            <div class="divfour"><img src="img/kitem8.png" alt="items" height="140" width="140"></div>
                         </div>
                     </div>
-                    <a href="electronic.html">See more..</a>
+                    <a href="kids.html">See more..</a>
                 </section>
                 <section class="secfour">
-                    
+                    <h2>UPTO 20% OFF |Deepawali Special</h2>
+                    <div sectwoimg><img src="img/kitem6.png" alt="36" width="240" height="240"></div>
+                    <a href="kids.html">See more..</a>
                 </section>
             </div>
             <div class="fourthcat">
                 <div id="fourthcat">
-                    <div class="aslide"><h1 id="head">BOMIRANG KIDS FASHION</h1></div>
-                    <div class="bslide"><img src="img/mitem1.png" height="305" width="320"></div>
-                    <div class="cslide"><img src="img/mitem1.png" height="305" width="320"></div>
-                    <div class="dslide"><img src="img/mitem1.png" height="305" width="320"></div>
-                    <div class="eslide"><img src="img/mitem1.png" height="305" width="320"></div>
-                    <div class="fslide"><img src="img/mitem1.png" height="305" width="320"></div>
-                    <div class="gslide"><img src="img/mitem1.png" height="305" width="320"></div>
-                    <div class="hslide"><img src="img/mitem1.png" height="305" width="320"></div>
+                    <div class="aslide"><h1 id="head">BOMIRANG WOMEN FASHION</h1></div>
+                    <div class="bslide"><img src="img/witem1.png" height="305" width="320"></div>
+                    <div class="cslide"><img src="img/witem2.png" height="305" width="320"></div>
+                    <div class="dslide"><img src="img/witem3.png" height="305" width="320"></div>
+                    <div class="eslide"><img src="img/witem4.png" height="305" width="320"></div>
+                    <div class="fslide"><img src="img/witem5.png" height="305" width="320"></div>
+                    <div class="gslide"><img src="img/witem6.png" height="305" width="320"></div>
+                    <div class="hslide"><img src="img/witem7.png" height="305" width="320"></div>
                 </div>
             </div>
             <div class="fifthcat">
-                <section class="secone"></section>
-                <section class="sectwo"></section>
-                <section class="secthree"></section>
-                <section class="secfour"></section>
+                <section class="secone">
+                    <h2>Best Comfort</h2>
+                    <div class="fourdiv">
+                        <div>
+                            <div class="divone"><img src="img/sitem1.png" alt="items" height="140" width="140"></div>
+                            <div class="divtwo"><img src="img/sitem2.PNG" alt="items" height="140" width="140"></div>
+                        </div>
+                        <div>
+                            <div class="divthree"><img src="img/sitem3.PNG" alt="items" height="140" width="140"></div>
+                            <div class="divfour"><img src="img/sitem4.PNG" alt="items" height="140" width="140"></div>
+                        </div>
+                    </div>
+                    <a href="shoes.html">See more..</a>
+                </section>
+                <section class="sectwo">
+                    <h2>UPTO 80% OFF |BESTSELLERS</h2>
+                    <div sectwoimg><img src="img/sitem38.PNG" alt="36" width="240" height="240"></div>
+                    <a href="shoes.html">See more..</a>
+                </section>
+                <section class="secthree">
+                    <h2>For Daily Use</h2>
+                    <div class="fourdiv">
+                        <div>
+                            <div class="divone"><img src="img/sitem13.PNG" alt="items" height="140" width="140"></div>
+                            <div class="divtwo"><img src="img/sitem15.PNG" alt="items" height="140" width="140"></div>
+                        </div>
+                        <div>
+                            <div class="divthree"><img src="img/sitem22.PNG" alt="items" height="140" width="140"></div>
+                            <div class="divfour"><img src="img/sitem4.PNG" alt="items" height="140" width="140"></div>
+                        </div>
+                    </div>
+                    <a href="shoes.html">See more..</a>
+                </section>
+                <section class="secfour">
+                    <h2>UPTO 50% OFF</h2>
+                    <div sectwoimg><img src="img/sitem40.PNG" alt="36" width="240" ></div>
+                    <a href="shoes.html">See more..</a>
+                </section>
             </div>
             <div class="sixthcat">
                 <div id="sixthcat">

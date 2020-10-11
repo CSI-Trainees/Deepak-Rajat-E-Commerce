@@ -4,6 +4,153 @@
     box-sizing: border-box;
     outline: none;
 }
+nav{
+    height:8vh;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    padding: 3px 5px;
+    display: flex;
+    /* justify-content:space-between; */
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 30px;
+  
+}
+
+.sidenav a {
+  padding: 5px 8px 5px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  line-height:0px;
+}
+
+.sidenav a:hover {
+  color: #19C2D7;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  
+}
+.hamburger{
+  width:35px;
+  padding: 2px 3px;
+color:white;
+background-color:black;
+font-size:30px;
+cursor:pointer;
+border:1px solid grey;
+margin:3px 0 1px 10px;
+}
+.hamburger:hover{
+border: 1.5px solid white;}
+
+.logo img{
+    height: 6vh;
+    width: 110px;
+    margin:5px 10px 0 25px;
+}
+option{
+    font-size: 170%;
+}
+#search{
+    height: 6vh;
+    width: 700px;
+   padding:3px 5px;
+   font-size: 110%;
+   border:1px solid white;
+   border-radius: 5px;
+   padding-left: 55px;
+}
+#all{
+    position: relative;
+    left: 55px;
+    bottom: 1px;
+    height: 6vh;
+    width: 50px;
+    border-radius: 5px;
+    background-color: rgba(125, 125, 125, 0.2);
+    border: none;
+    border-right:1px solid grey;
+    font-size: 80%;
+    padding: 1px 1px;
+}
+#all:hover{
+    background-color: white;
+}
+#searchicon{
+    position: relative;
+    right: 54px;
+    top:3px;
+    height: 6vh;
+    width: 50px;
+    background-color: goldenrod;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    border-left:1px solid grey;
+}
+#searchicon:hover{
+    background-color: rgb(201, 153, 34);
+}
+
+.login,.contactus,.orders{
+  margin-top: 3px;
+  height: 6vh;
+  width: 100px;
+  background-color: black;
+  color: white;
+  font-size: 105%;
+  border: 1px solid grey;
+}
+.login a, .contactus a{
+    text-decoration: none;
+    color: white;
+}
+ 
+.login:hover,.contactus:hover,.orders:hover,#shoppingcart:hover{
+   border: 1px solid white;
+}
+
+.orders{
+   margin-left: 30px;
+}
+
+.contactus{
+   margin-left: 30px;
+   margin-right: 70px;
+}
+
+#shoppingcart{
+   height: 6vh;
+   margin-top: 2px;
+   background-color: black;
+   color:white;  
+   border: 1px solid gray;
+   padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
 main {
     width:100%;
@@ -30,7 +177,7 @@ main .div1sec1{
     background-color: white;
     margin-left: 70px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
     
 }
 
@@ -42,7 +189,7 @@ main .div1sec2{
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 main .div1sec3{
@@ -51,7 +198,7 @@ main .div1sec3{
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 main .div1sec4{
@@ -60,7 +207,7 @@ main .div1sec4{
     background-color: white;
     margin-left: 40px;
     margin-right: 70px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 /******************************************* for hover of div 1 *********************************************************************/
@@ -104,7 +251,7 @@ main .div2sec1{
     background-color: white;
     margin-left: 70px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
     
 }
 
@@ -114,7 +261,7 @@ main .div2sec2{
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 main .div2sec3{
@@ -123,7 +270,7 @@ main .div2sec3{
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 main .div2sec4{
@@ -132,7 +279,7 @@ main .div2sec4{
     background-color:white;
     margin-left: 40px;
     margin-right: 70px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 /******************************************** hover for div 2 ************************************************************/
@@ -178,7 +325,7 @@ main .div3sec1{
     background-color:white;
     margin-left: 70px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
     
 }
 
@@ -188,7 +335,7 @@ main .div3sec2{
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 main .div3sec3{
@@ -197,7 +344,7 @@ main .div3sec3{
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 main .div3sec4{
@@ -206,7 +353,7 @@ main .div3sec4{
     background-color: white;
     margin-left: 40px;
     margin-right: 70px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 /****************************************************** hover div 3 ******************************************/
@@ -250,7 +397,7 @@ main .div4sec1{
     background-color: white;
     margin-left: 70px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
     
 }
 
@@ -260,7 +407,7 @@ main .div4sec2{
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 main .div4sec3{
@@ -269,7 +416,7 @@ main .div4sec3{
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 main .div4sec4{
@@ -278,7 +425,7 @@ main .div4sec4{
     background-color: white;
     margin-left: 40px;
     margin-right: 70px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 /****************************************************** hover for div 4 **************************************/
@@ -322,7 +469,7 @@ main .div5sec1{
     background-color: white;
     margin-left: 70px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
     
 }
 
@@ -332,7 +479,7 @@ main .div5sec2{
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 main .div5sec3{
@@ -341,7 +488,7 @@ main .div5sec3{
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 main .div5sec4{
@@ -350,7 +497,7 @@ main .div5sec4{
     background-color: white;
     margin-left: 40px;
     margin-right: 70px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 /********************************************************** hover for div 5 **********************************/
@@ -396,7 +543,7 @@ main .div6sec1{
     background-color: white;
     margin-left: 70px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
     
 }
 
@@ -406,7 +553,7 @@ main .div6sec2{
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 main .div6sec3{
@@ -415,7 +562,7 @@ main .div6sec3{
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 main .div6sec4{
@@ -424,7 +571,7 @@ main .div6sec4{
     background-color: white;
     margin-left: 40px;
     margin-right: 70px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 /*************************************************** hover for div 6 **************************************/
@@ -468,7 +615,7 @@ main .div7sec1{
     background-color: white;
     margin-left: 70px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
     
 }
 
@@ -478,7 +625,7 @@ main .div7sec2{
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 main .div7sec3{
@@ -487,7 +634,7 @@ main .div7sec3{
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 main .div7sec4{
@@ -496,7 +643,7 @@ main .div7sec4{
     background-color: white;
     margin-left: 40px;
     margin-right: 70px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 /********************************************************** hover for div 7 ********************************/
@@ -540,7 +687,7 @@ main .div8sec1{
     background-color: white;
     margin-left: 70px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
     
 }
 
@@ -550,7 +697,7 @@ main .div8sec2{
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 main .div8sec3{
@@ -559,7 +706,7 @@ main .div8sec3{
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 main .div8sec4{
@@ -568,7 +715,7 @@ main .div8sec4{
     background-color: white;
     margin-left: 40px;
     margin-right: 70px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 /************************************************************* hover for div 8 ************************************/
@@ -612,7 +759,7 @@ main .div9sec1{
     background-color: white;
     margin-left: 70px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
     
 }
 
@@ -622,7 +769,7 @@ main .div9sec2{
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 main .div9sec3{
@@ -631,7 +778,7 @@ main .div9sec3{
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 main .div9sec4{
@@ -640,7 +787,7 @@ main .div9sec4{
     background-color: white;
     margin-left: 40px;
     margin-right: 70px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 /*******************************************************  hover for div 9 ********************************************/
@@ -686,7 +833,7 @@ main .div10sec1{
     background-color: white;
     margin-left: 70px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
     
 }
 
@@ -696,7 +843,7 @@ main .div10sec2{
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 main .div10sec3{
@@ -705,7 +852,7 @@ main .div10sec3{
     background-color: white;
     margin-left: 40px;
     margin-right: 40px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 main .div10sec4{
@@ -714,7 +861,7 @@ main .div10sec4{
     background-color: white;
     margin-left: 40px;
     margin-right: 70px;
-    
+    box-shadow: 3px 3px 5px 3px grey;
 }
 
 /*******************************************************  hover for div 10  **************************************/

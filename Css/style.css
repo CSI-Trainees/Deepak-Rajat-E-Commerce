@@ -175,13 +175,17 @@ option{
 }
 
 .login,.contactus,.orders{
-    margin-top: 3px;
+  margin-top: 3px;
   height: 6vh;
   width: 100px;
   background-color: black;
   color: white;
   font-size: 105%;
   border: 1px solid grey;
+}
+.login a, .contactus a{
+    text-decoration: none;
+    color: white;
 }
  
 .login:hover,.contactus:hover,.orders:hover,#shoppingcart:hover{
@@ -216,7 +220,8 @@ option{
 main{
     height: 50vh;
     width: 100%;
-    background-color: yellowgreen;
+    background-color:#CACFD2;
+
 }
 /*#slider{
     height: 40vh;
@@ -263,6 +268,7 @@ main{
     position: relative;
     left: 0;
     animation: slider 15s infinite;
+    background-color:#CACFD2;
 }
 @keyframes slider{
     0%{
@@ -344,6 +350,7 @@ main{
     height: 100%;
     margin-right: 5%;
     margin-left: 0;
+    box-shadow: 3px 3px 5px 5px grey;
 }
 #content .firstcat .secone h2, .secthree h2{
     margin: 18px;
@@ -360,7 +367,8 @@ main{
     height:140px; 
     width: 140px;
     margin: 10px;
-    background-color: yellow;
+
+    /*background-color: yellow;*/
 }
 #content .firstcat a{
     margin: 18px;
@@ -375,6 +383,7 @@ main{
     width: 22.5%;
     height: 100%;
     margin-right: 5%;
+    box-shadow: 3px 3px 5px 5px grey;
 }
 #content .firstcat .sectwo h2, .secfour h2{
     margin: 18px;
@@ -391,12 +400,14 @@ main{
     width: 22.5%;
     height: 100%;
     margin-right: 5%;
+    box-shadow: 3px 3px 5px 5px grey;
 }
 #content .firstcat .secfour{
     background-color: white;
     width: 22.5%;
     height: 100%;
     box-shadow: 20px;
+    box-shadow: 3px 3px 5px 5px grey;
 }
 
 /******************************second section*****************************************/
@@ -409,6 +420,7 @@ main{
     width: 95%;
     overflow: auto;
     background-color: white;
+    box-shadow: 3px 3px 5px 5px grey;
 }
 #content .secondcat #secondcat{
     display: flex;
@@ -423,7 +435,7 @@ main{
     margin-top: 40px;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: violet;
+    /*background-color: violet;*/
 }
 #content .secondcat .aslide{
     display: flex;
@@ -455,6 +467,7 @@ main{
     height: 100%;
     margin-right: 5%;
     margin-left: 0;
+    box-shadow: 3px 3px 5px 5px grey;
 }
 #content .thirdcat .secone h2, .secthree h2{
     margin: 18px;
@@ -473,6 +486,7 @@ main{
     height: 100%;
     margin-right: 5%;
     margin-left: 0;
+    box-shadow: 3px 3px 5px 5px grey;
 }
 #content .thirdcat .sectwo h2, .secthree h2{
     margin: 18px;
@@ -489,7 +503,7 @@ main{
     height:140px; 
     width: 140px;
     margin-right: 10px;
-    background-color: yellow;
+    /*background-color: yellow;*/
 }
 #content .thirdcat a{
     margin: 18px;
@@ -505,15 +519,17 @@ main{
     width: 22.5%;
     height: 100%;
     margin-right: 5%;
+    box-shadow: 3px 3px 5px 5px grey;
 }
 
 /*********************************************4**************************************/
 
 #content .thirdcat .secfour{
-    background-color: yellowgreen;
+    background-color: white;
     width: 22.5%;
     height: 100%;
     box-shadow: 20px;
+    box-shadow: 3px 3px 5px 5px grey;
 }
 
 
@@ -525,7 +541,8 @@ main{
     height: 50vh;
     width: 95%;
     overflow: auto;
-    background-color: green;
+    background-color: white;
+    box-shadow: 3px 3px 5px 5px grey;
 }
 
 #content .fourthcat #fourthcat{
@@ -554,14 +571,89 @@ main{
     text-align: center;
 }
 /**********************************fifth section **************************************/
-
 #content .fifthcat{
+    position: relative;
+    top: 5vh;
+    left: 40px;
+    height: 50vh;
+    width: 95%;
+    /*background-color: blue;*/
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+#content .fifthcat .secone{
+    background-color: white;
+    width: 22.5%;
+    height: 100%;
+    margin-right: 5%;
+    margin-left: 0;
+    box-shadow: 3px 3px 5px 5px grey;
+}
+#content .fifthcat .secone h2, .secthree h2{
+    margin: 18px;
+    font-size: 26px;
+    font-weight: bold;
+}
+#content .fifthcat .secone .fourdiv, .secthree .fourdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#content .fifthcat .fourdiv .divone, .divtwo, .divthree, .divfour{
+    height:140px; 
+    width: 140px;
+    margin: 10px;
+    /*background-color: yellow;*/
+}
+#content .fifthcat a{
+    margin: 18px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #19C2D7 ;
+}
+
+
+#content .fifthcat .sectwo{
+    background-color: white;
+    width: 22.5%;
+    height: 100%;
+    margin-right: 5%;
+    box-shadow: 3px 3px 5px 5px grey;
+}
+#content .fifthcat .sectwo h2, .secfour h2{
+    margin: 18px;
+    font-size: 26px;
+    font-weight: bold;
+}
+#content .fifthcat .sectwo img, .secfour img{
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+#content .fifthcat .secthree{
+    background-color: white;
+    width: 22.5%;
+    height: 100%;
+    margin-right: 5%;
+    box-shadow: 3px 3px 5px 5px grey;
+}
+#content .fifthcat .secfour{
+    background-color: white;
+    width: 22.5%;
+    height: 100%;
+    box-shadow: 20px;
+    box-shadow: 3px 3px 5px 5px grey;
+}
+/*#content .fifthcat{
     margin-top: 5vh;
     margin-left: 40px;
     margin-bottom: 9vh;
     height: 50vh;
     width: 95%;
-    background-color: yellow;
+    background-color: #CACFD2;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -573,28 +665,32 @@ main{
     height: 100%;
     margin-right: 5%;
     margin-left: 0;
+    box-shadow: 3px 3px 5px 5px grey;;
 }
 #content .fifthcat .sectwo{
     background-color: yellowgreen;
     width: 22.5%;
     height: 100%;
     margin-right: 5%;
+    box-shadow: 3px 3px 5px 5px grey;
 }
 #content .fifthcat .secthree{
     background-color: yellowgreen;
     width: 22.5%;
     height: 100%;
     margin-right: 5%;
+    box-shadow: 3px 3px 5px 5px grey;
 }
 #content .fifthcat .secfour{
     background-color: yellowgreen;
     width: 22.5%;
     height: 100%;
-}
+    box-shadow: 3px 3px 5px 5px grey;
+}*/
 /*******************************sixth section ************************************/
 
 #content .sixthcat{
-    margin-top: 5vh;
+    margin-top: 15vh;
     margin-left: 40px;
     height: 50vh;
     width: 95%;
@@ -602,6 +698,7 @@ main{
     bottom: 40px;
     overflow: auto;
     background-color: white;
+    box-shadow: 3px 3px 5px 5px grey;
 }
 #content .sixthcat #sixthcat{
     display: flex;
