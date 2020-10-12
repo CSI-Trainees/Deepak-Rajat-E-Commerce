@@ -336,7 +336,7 @@ main{
     position: relative;
     top: 5vh;
     left: 40px;
-    height: 50vh;
+    height: 55vh;
     width: 95%;
     /*background-color: blue;*/
     display: flex;
@@ -392,7 +392,7 @@ main{
 }
 #content .firstcat .sectwo img, .secfour img{
     margin-top: 5px;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 #content .firstcat .secthree{
@@ -406,7 +406,6 @@ main{
     background-color: white;
     width: 22.5%;
     height: 100%;
-    box-shadow: 20px;
     box-shadow: 3px 3px 5px 5px grey;
 }
 
@@ -453,7 +452,7 @@ main{
 #content .thirdcat{
     margin-top: 5vh;
     margin-left: 40px;
-    height: 50vh;
+    height: 55vh;
     width: 95%;
     background-color:#CACFD2;;
     display: flex;
@@ -575,7 +574,7 @@ main{
     position: relative;
     top: 5vh;
     left: 40px;
-    height: 50vh;
+    height: 55vh;
     width: 95%;
     /*background-color: blue;*/
     display: flex;
@@ -738,15 +737,15 @@ main{
 /***********************************footer********************************************/
 
 footer{
-	width: 100%;
-	height: 80vh;
-	background-color: black;
+    width: 100%;
+    height: 70vh;
+    background-color: black;
 }
 footer .footer{
-	display: flex;
-	justify-content: center;
-	flex-direction: row;
-	align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
 
 }
 
@@ -756,57 +755,57 @@ footer .footer{
 
 
 footer .footerone{
-	height: 320px;
-	width: 280px;
-	margin-left: 150px;
-	position: relative;
-	top: 100px;
-	/*background-color: violet;*/
+    height: 320px;
+    width: 280px;
+    margin-left: 150px;
+    position: relative;
+    top:50px;
+    /*background-color: violet;*/
 }
 footer .footerone h3{
-	margin: 15px;
-	color:white;
+    margin: 15px;
+    color:white;
 }
 footer .footerone .one{
-	font-size: 20px;
-	color: #AEB6BF;
-	margin-top: 10px;
-	word-spacing: 1px;
+    font-size: 20px;
+    color: #AEB6BF;
+    margin-top: 10px;
+    word-spacing: 1px;
 }
 footer .footerone .one div{
-	margin: 15px;
+    margin: 15px;
 }
 footer .footerone .one div:hover{
-	color: white;
+    color: white;
 }
 
 /*************footer two ******************/
 
 
 footer .footertwo{
-	height: 320px;
-	width: 330px;
-	margin-left: 80px;
-	position: relative;
-	top: 100px;
-	/*background-color: yellow;*/
+    height: 320px;
+    width: 330px;
+    margin-left: 70px;
+    position: relative;
+    top: 50px;
+    /*background-color: yellow;*/
 }
 footer .footertwo h3{
-	margin: 15px;
-	color:white;
+    margin: 15px;
+    color:white;
 }
 footer .footertwo .two{
-	font-size: 20px;
-	color: #AEB6BF ;
-	margin-top: 10px;
-	word-spacing: 1px;
+    font-size: 20px;
+    color: #AEB6BF ;
+    margin-top: 10px;
+    word-spacing: 1px;
 }
 footer .footertwo .items{
-	font-size: 20px;
+    font-size: 20px;
     line-height: 32px;
 }
 footer .items div:hover{
-	color: white;
+    color: white;
 }
 
 
@@ -815,74 +814,74 @@ footer .items div:hover{
 
 
 footer .footerthree{
-	height: 320px;
-	width: 300px;
-	margin-left: 100px;
-	position: relative;
-	top: 100px;
-	/*background-color: yellowgreen;*/
+    height: 320px;
+    width: 300px;
+    margin-left: 100px;
+    position: relative;
+    top: 50px;
+    /*background-color: yellowgreen;*/
 }
 footer .footerthree h3{
-	margin: 15px;
-	color:white;
+    margin: 15px;
+    color:white;
 }
 footer .footerthree .three{
-	font-size: 20px;
-	color: #AEB6BF ;
-	margin-top: 10px;
-	word-spacing: 1px;
+    font-size: 20px;
+    color: #AEB6BF ;
+    margin-top: 10px;
+    word-spacing: 1px;
 }
 footer .footerthree .three div{
-	margin: 10px;
+    margin: 10px;
 }
 footer .footerthree .three div:hover{
-	color: white;
+    color: white;
 }
 /*****************footer four******************/
 
 
 
 footer .footerfour{
-	height: 320px;
-	width: 320px;
-	/*background-color: green;*/
-	margin-left: 100px;
-	margin-right: 180px;
-	position: relative;
-	top: 100px;
+    height: 320px;
+    width: 320px;
+    /*background-color: green;*/
+    margin-left: 100px;
+    margin-right: 180px;
+    position: relative;
+    top: 50px;
 }
 footer .footerfour h3{
-	margin: 15px;
-	color:white;
+    margin: 15px;
+    color:white;
 }
 footer .footerfour .logos2{
-	margin: 10px;
+    margin: 10px;
 }
 footer .footerfour .logos2 a{
-	color:#AEB6BF;
-	margin: 5px; 
+    color:#AEB6BF;
+    margin: 5px; 
 }
 footer .footerfour .logos2 .fa:hover{
-	color: white;
+    color: white;
 }
 footer .footerfour  .subs{
-	font-size: 20px;
-	line-height: 20px;
-	color: white;
-	margin-top: 40px;
-	margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 footer .footerfour #email{
-	height: 40px;
-	width: 90%;
-	font-size: 20px;
+    height: 40px;
+    width: 90%;
+    font-size: 20px;
 }
 footer .footerfour .btnfoot{
-	width: 80px;
-	height: 30px;
-	margin-top: 15px;
-	font-size: 20px;
+    width: 80px;
+    height: 30px;
+    margin-top: 15px;
+    font-size: 20px;
 }
 footer .footerfour .btnfoot:hover{
-	background-color:#AEB6BF;
+    background-color:#AEB6BF;
 }

@@ -960,7 +960,7 @@ img{height: 230px;
 
 footer{
 	width: 100%;
-	height: 80vh;
+	height: 70vh;
 	background-color: black;
 }
 footer .footer{
@@ -981,7 +981,7 @@ footer .footerone{
 	width: 280px;
 	margin-left: 150px;
 	position: relative;
-	top: 100px;
+	top: 50px;
 	/*background-color: violet;*/
 }
 footer .footerone h3{
@@ -1009,7 +1009,7 @@ footer .footertwo{
 	width: 330px;
 	margin-left: 80px;
 	position: relative;
-	top: 100px;
+	top: 50px;
 	/*background-color: yellow;*/
 }
 footer .footertwo h3{
@@ -1040,7 +1040,7 @@ footer .footerthree{
 	width: 300px;
 	margin-left: 100px;
 	position: relative;
-	top: 100px;
+	top: 50px;
 	/*background-color: yellowgreen;*/
 }
 footer .footerthree h3{
@@ -1070,7 +1070,7 @@ footer .footerfour{
 	margin-left: 100px;
 	margin-right: 180px;
 	position: relative;
-	top: 100px;
+	top: 50px;
 }
 footer .footerfour h3{
 	margin: 15px;
