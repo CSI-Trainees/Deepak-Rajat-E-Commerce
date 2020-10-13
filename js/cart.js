@@ -1,6 +1,11 @@
 var product_amount = document.getElementById('product_amount');
 var shipping_charge = document.getElementById('shipping_charge');
 var totalamt = document.getElementById('totalamt');
+/**********************************add**********************************/
+
+function add() {
+    document.getElementById('add').style.display = "block";
+}
 /************************************************first************************ */
 function decreaseNumone() {
     var itemval = document.getElementById('textbox');
